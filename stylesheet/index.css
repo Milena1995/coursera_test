@@ -10,7 +10,11 @@ body {
     background-color: #611221;
     font-family: 'Oxygen', sans-serif;
 }
-
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .navbar-container {
     background-color: #f6b319;
     display: flex;
@@ -76,6 +80,14 @@ body {
     color: #557c3e;
 }
 
+footer {
+    /* margin-top: auto;w */
+    position: absolute;
+    bottom:0;
+    background-color: blue;
+    height: 150px;
+    width: 100%;
+}
 /* Extra small devices (phones, 600px and down) */
 @media screen and (max-width: 600px) {
     .logo-nav {
