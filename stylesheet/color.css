@@ -1,0 +1,31 @@
+.bc-green {
+    background-color: #557c3e;
+}
+
+.bc-yellow {
+    background-color: #f6b319;
+}
+
+.bc-red {
+    background-color: #61122f;
+}
+
+.bc-grey {
+    background-color: #363636;
+}
+
+.c-green {
+    color: #557c3e;
+}
+
+.c-yellow {
+    color: #f6b319;
+}
+
+.c-red {
+    color: #61122f;
+}
+
+.c-grey {
+    color: #363636;
+}
