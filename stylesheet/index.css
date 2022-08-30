@@ -4,17 +4,24 @@
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     font-size: 16px;
     color: white;
     background-color: #611221;
     font-family: 'Oxygen', sans-serif;
+    overflow: auto;
 }
-.container{
+
+.container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+
 .navbar-container {
     background-color: #f6b319;
     display: flex;
@@ -32,11 +39,13 @@ body {
     margin-right: 7px;
 }
 
-.forth, .third {
+.forth,
+.third {
     margin-left: auto;
 }
 
-.second, .forth {
+.second,
+.forth {
     display: flex;
     flex-direction: column;
 }
@@ -45,56 +54,105 @@ body {
     display: flex;
     flex-direction: row;
 }
+
 .resta-name {
-    font-size: 32px;
+    /* font-size: 32px; */
     font-weight: 600;
     color: #557c3e;
+    text-shadow: 1px 1px 1px #222;
 }
+
 .resta-certif {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-top: 5px;
 }
 
 .certif {
     margin-left: 5px;
     font-weight: 400;
     color: #611221;
+    text-transform: uppercase;
+    font-size: 14px;
 }
+
 .third {
     display: flex;
     flex-direction: row;
 }
 
-.page-link{
-    color:#611221;
+.page-link {
+    color: #611221;
     margin-right: 20px;
-    
+    text-align: center;
+
 }
+
 .forth-number {
     font-size: 24px;
     color: #611221;
 }
 
-.forth-deliver{
+.forth-deliver {
     color: #557c3e;
 }
 
+.resta-image {
+    background-image: url(../assets/images/cloris-ying-LuNsl-Slwec-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+    border-radius: 16px;
+    width: 60%;
+
+}
+
+.section1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 footer {
-    /* margin-top: auto;w */
     position: absolute;
-    bottom:0;
-    background-color: blue;
+    bottom: 0;
     height: 150px;
     width: 100%;
+    padding: 10px
 }
+
+.mobile-burger {
+    display: none;
+    cursor: pointer;
+}
+
+#burger {
+    display: none;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media screen and (max-width: 600px) {
     .logo-nav {
         height: 65px;
         width: 70px;
     }
+
+    .mobile-burger {
+        display: initial;
+        /* visibility: visible; */
+        color: grey;
+    }
 }
+
+/* .logo-container {
+        display: none;
+    }
+} */
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 /* @media screen and (min-width: 600px) {...} */

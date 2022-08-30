@@ -25,9 +25,11 @@
                 </a>
             </div>
             <div class="second column">
-                <div class="resta-name">
-                    LAI'S FAMILY BISTRO
-                </div>
+                <a href="index.html">
+                    <h1 class="resta-name">
+                        LAI'S FAMILY BISTRO
+                    </h1>
+                </a>
                 <div class="resta-certif">
                     <div class="star">
                         <span class="material-symbols-outlined c-grey">
@@ -35,7 +37,7 @@
                         </span>
                     </div>
                     <div class="certif">
-                        Certified
+                        Kosher Certified
                     </div>
                 </div>
             </div>
@@ -69,12 +71,48 @@
                 <div class="forth-number">+230 59388728</div>
                 <div class="forth-deliver">*We Deliver*</div>
             </div>
+            <button type="button" class="mobile-burger" onClick="myFunction()">
+                <span class="material-symbols-outlined">
+                    menu
+                </span>
+            </button>
+            <div id="burger" class="burger-container">
+                <div>Menu</div>
+                <div>About</div>
+                <div>Rewards</div>
+            </div>
         </nav>
     </header>
+    <section class="section1">
+        <div class="resta-image" alt="image here">
+
+        </div>
+        <div class="image-section">
+            <div class="image-row">
+
+            </div>
+            <div class="image-row">
+
+            </div>
+            <div class="image-row">
+
+            </div>
+        </div>
+    </section>
     <footer>
         kgkghff
     </footer>
-
+    <script>
+        function myFunction() {
+            var x = document.getElementById("burger");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+    <!-- </div> -->
     <!-- <script src="./bootstrap/jQuery/jquery-3.6.1.min.js"></script> -->
     <!-- <script src="./bootstrap/js/bootstrap.min.js"></script> -->
     <!-- <script src="./bootstrap/js/script.js"></script> -->
