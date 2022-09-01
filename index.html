@@ -2,120 +2,135 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Milena Lai Restaurant</title>
-    <!-- <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" /> -->
-    <link rel="stylesheet" href="./stylesheet/index.css" />
-    <link rel="stylesheet" href="./stylesheet/color.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,200" />
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Milena Lai Restaurant</title>
+  <!-- <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" /> -->
+  <link rel="stylesheet" href="./stylesheet/index.css" />
+  <link rel="stylesheet" href="./stylesheet/color.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,200" />
+  <script type="text/javascript" src="./javaScript/index.js"></script>
 </head>
 
 <body>
-    <header>
-        <nav class="navbar-container">
-            <div class="logo-container">
-                <a href="index.html">
-                    <div class="logo-nav" alt="logo here"></div>
-                </a>
-            </div>
-            <div class="second column">
-                <a href="index.html">
-                    <h1 class="resta-name">
-                        LAI'S FAMILY BISTRO
-                    </h1>
-                </a>
-                <div class="resta-certif">
-                    <div class="star">
-                        <span class="material-symbols-outlined c-grey">
-                            star_rate
-                        </span>
-                    </div>
-                    <div class="certif">
-                        Kosher Certified
-                    </div>
-                </div>
-            </div>
-            <div class="third column">
-                <div class="page-link">
-                    <div class="icon">
-                        <span class="material-symbols-outlined">
-                            restaurant
-                        </span>
-                    </div>
-                    <div class="icon-text">Menu</div>
-                </div>
-                <div class="page-link">
-                    <div class="icon">
-                        <span class="material-symbols-outlined">
-                            error
-                        </span>
-                    </div>
-                    <div class="icon-text">About</div>
-                </div>
-                <div class="page-link">
-                    <div class="icon">
-                        <span class="material-symbols-outlined">
-                            stars
-                        </span>
-                    </div>
-                    <div class="icon-text">Rewards</div>
-                </div>
-            </div>
-            <div class="forth column">
-                <div class="forth-number">+230 59388728</div>
-                <div class="forth-deliver">*We Deliver*</div>
-            </div>
-            <button type="button" class="mobile-burger" onClick="myFunction()">
-                <span class="material-symbols-outlined">
-                    menu
-                </span>
-            </button>
-            <div id="burger" class="burger-container">
-                <div>Menu</div>
-                <div>About</div>
-                <div>Rewards</div>
-            </div>
-        </nav>
-    </header>
-    <section class="section1">
-        <div class="resta-image" alt="image here">
-
+  <header>
+    <!-- NAVIGATION START -->
+    <nav class="navbar-container row">
+      <div class="logo-container">
+        <a href="index.html">
+          <div class="logo-nav" alt="logo here"></div>
+        </a>
+      </div>
+      <div class="column">
+        <a href="index.html">
+          <h1 class="resta-name">LAI'S FAMILY BISTRO</h1>
+        </a>
+        <div class="resta-certif row">
+          <div class="star">
+            <span class="material-symbols-outlined c-grey"> star_rate </span>
+          </div>
+          <div class="certif">Kosher Certified</div>
         </div>
-        <div class="image-section">
-            <div class="image-row">
-
-            </div>
-            <div class="image-row">
-
-            </div>
-            <div class="image-row">
-
-            </div>
+      </div>
+      <div class="list-desktop row">
+        <div class="page-link">
+          <div class="icon">
+            <span class="material-symbols-outlined"> restaurant </span>
+          </div>
+          <div class="icon-text">Menu</div>
         </div>
-    </section>
-    <footer>
-        kgkghff
-    </footer>
-    <script>
-        function myFunction() {
-            var x = document.getElementById("burger");
-            if (x.style.display === "none") {
-                x.style.display = "block";
-            } else {
-                x.style.display = "none";
-            }
-        }
-    </script>
-    <!-- </div> -->
-    <!-- <script src="./bootstrap/jQuery/jquery-3.6.1.min.js"></script> -->
-    <!-- <script src="./bootstrap/js/bootstrap.min.js"></script> -->
-    <!-- <script src="./bootstrap/js/script.js"></script> -->
+        <div class="page-link">
+          <div class="icon">
+            <span class="material-symbols-outlined"> error </span>
+          </div>
+          <div class="icon-text">About</div>
+        </div>
+        <div class="page-link">
+          <div class="icon">
+            <span class="material-symbols-outlined"> stars </span>
+          </div>
+          <div class="icon-text">Rewards</div>
+        </div>
+      </div>
+      <div class="contact column">
+        <div class="contact-number">+230 59388728</div>
+        <div class="contact-deliver">*We Deliver*</div>
+      </div>
+      <button id="myBtn">
+        <span class="material-symbols-outlined"> menu </span>
+      </button>
+      <!-- THE MODAL START-->
+      <div id="myModal" class="modal">
+        <div class="modal-content column">
+          <div class="close-button">
+            <span class="close">&times;</span>
+          </div>
+          <div class="menu-container column">
+            <ul class="list">
+              <li class="item"><a href="menu.html">Menu</a></li>
+              <li class="item"><a href="about.html">About</a></li>
+              <li class="item"><a href="rewards.html">Rewards</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- THE MODAL END-->
+    </nav>
+    <!-- NAVIGATION END-->
+  </header>
+  <!-- MAIN IMAGE SECTION START -->
+  <section class="main-image">
+    <div class="resta-image" alt="image here"></div>
+    <div class="image-section">
+      <div class="image-row"></div>
+      <div class="image-row"></div>
+      <div class="image-row"></div>
+    </div>
+  </section>
+  <!-- MAIN IMAGE SECTION END -->
+  <footer>kgkghff</footer>
+  <script>
+    function myFunction(className) {
+      var x = document.getElementById(className);
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+  </script>
+  <script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks the button, open the modal
+    btn.onclick = function () {
+      modal.style.display = "block";
+    };
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+      modal.style.display = "none";
+    };
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    };
+  </script>
 </body>
 
 </html>
