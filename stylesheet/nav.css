@@ -1,0 +1,209 @@
+.navbar-container {
+    background-color: #f6b319;
+    align-items: center;
+    padding-right: 10px;
+}
+
+/* add image for container */
+.logo-nav {
+    background-image: url("../assets/logo/Lais-Foody-logos_transparent.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 12vh;
+    width: 120px;
+    margin-right: 7px;
+}
+
+.contact {
+    margin-left: 50px;
+}
+
+.menu-dsk-container {
+    margin-left: auto;
+}
+
+.item {
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    color: #611221;
+}
+
+.item>a {
+    color: #611221;
+}
+
+.resta-name {
+    font-weight: 600;
+    color: #557c3e;
+    text-shadow: 1px 1px 1px #222;
+}
+
+.resta-certif {
+    align-items: center;
+    margin-top: 5px;
+}
+
+.certif {
+    margin-left: 5px;
+    font-weight: 400;
+    color: #611221;
+    text-transform: uppercase;
+}
+
+.contact-number {
+    font-size: 24px;
+    color: #611221;
+}
+
+.contact-delivery {
+    color: #557c3e;
+}
+
+.mobile-burger {
+    display: none;
+    cursor: pointer;
+}
+
+#myBtn,
+#myModal {
+    display: none;
+}
+
+.star{
+    color: #222;
+}
+
+@media screen and (max-width: 767px) {
+
+    /* The Navigation Bar */
+    .logo-nav {
+        height: 65px;
+    }
+
+    #myBtn {
+        display: initial;
+        color: #611221;
+        height: 35px;
+        width: 35px;
+        background-color: transparent;
+        border: none;
+        margin-left: auto;
+        border: 1px solid #222;
+        border-radius: 4px;
+        box-shadow: 0px 1px 1px black;
+    }
+
+    #burger {
+        position: absolute;
+        background-color: #f6b319;
+        height: 100vh;
+    }
+
+    .certif {
+        font-size: 0.5em;
+    }
+
+    .list-desktop,
+    .contact,
+    .menu-dsk-container {
+        display: none;
+    }
+
+    .resta-certif {
+        margin-top: 1px;
+    }
+
+    /* The Modal (background) */
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.4);
+        color: #611221;
+        padding-top: 300px;
+    }
+
+    /* Modal Content */
+    .modal-content {
+        margin: auto;
+        background-color: #f6b319;
+        padding: 4px 18px;
+        border: 1px solid #888;
+        width: 80%;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+
+    /* The Close Button */
+    .close {
+        color: #611221;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .resta-image {
+        height: 350px;
+        width: 100%;
+    }
+
+    .main-image {
+        padding: 12px;
+    }
+
+    .close-button {
+        height: 100%;
+        flex: 1;
+    }
+
+    .menu-container {
+        height: 100%;
+        width: 100%;
+        flex: 10;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .item {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .list {
+        width: 100%;
+    }
+
+    .item>a {
+        width: 100%;
+        color: #611221;
+        padding: 20px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .item:hover {
+        width: 100%;
+        text-align: center;
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.4);
+        box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+    }
+}

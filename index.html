@@ -8,6 +8,8 @@
   <title>Milena Lai Restaurant</title>
   <!-- <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" /> -->
   <link rel="stylesheet" href="./stylesheet/index.css" />
+  <link rel="stylesheet" href="./stylesheet/nav.css" />
+  <link rel="stylesheet" href="./stylesheet/footer.css" />
   <link rel="stylesheet" href="./stylesheet/color.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -32,34 +34,30 @@
         </a>
         <div class="resta-certif row">
           <div class="star">
-            <span class="material-symbols-outlined c-grey"> star_rate </span>
+            <span class="material-symbols-outlined"> star_rate </span>
           </div>
           <div class="certif">Kosher Certified</div>
         </div>
       </div>
-      <div class="list-desktop row">
-        <div class="page-link">
-          <div class="icon">
+      <div class="menu-dsk-container row">
+        <ul class="list-dsk row">
+          <li class="item column">
             <span class="material-symbols-outlined"> restaurant </span>
-          </div>
-          <div class="icon-text">Menu</div>
-        </div>
-        <div class="page-link">
-          <div class="icon">
+            <a href="menu.html" class="icon-text">Menu</a>
+          </li>
+          <li class="item column">
             <span class="material-symbols-outlined"> error </span>
-          </div>
-          <div class="icon-text">About</div>
-        </div>
-        <div class="page-link">
-          <div class="icon">
+            <a href="about.html" class="icon-text">About</a>
+          </li>
+          <li class="item column">
             <span class="material-symbols-outlined"> stars </span>
-          </div>
-          <div class="icon-text">Rewards</div>
-        </div>
+            <a href="rewards.html" class="icon-text">Rewards</a>
+          </li>
+        </ul>
       </div>
       <div class="contact column">
         <div class="contact-number">+230 59388728</div>
-        <div class="contact-deliver">*We Deliver*</div>
+        <div class="contact-delivery">*We Deliver*</div>
       </div>
       <button id="myBtn">
         <span class="material-symbols-outlined"> menu </span>
@@ -85,15 +83,41 @@
   </header>
   <!-- MAIN IMAGE SECTION START -->
   <section class="main-image">
-    <div class="resta-image" alt="image here"></div>
-    <div class="image-section">
-      <div class="image-row"></div>
-      <div class="image-row"></div>
-      <div class="image-row"></div>
-    </div>
+    <figure>
+      <img class="resta-image" src="../assets/images/cloris-ying-LuNsl-Slwec-unsplash.jpg" alt="">
+    </figure>
+    <section class="image-section row">
+      <div>
+        <figure>
+          <img class="sub-image" src="../assets/images/pexels-momo-king-5409009.jpg" alt="">
+        </figure>
+      </div>
+      <div>
+        <figure>
+          <img class="sub-image" src="../assets/images/pexels-momo-king-5409009.jpg" alt="">
+        </figure>
+      </div>
+      <div>
+        <figure>
+          <img class="sub-image" src="../assets/images/pexels-momo-king-5409009.jpg" alt="">
+        </figure>
+      </div>
+    </section>
   </section>
   <!-- MAIN IMAGE SECTION END -->
-  <footer>kgkghff</footer>
+  <!-- FOOTER START -->
+  <footer class="row">
+    <div>
+      section 1
+    </div>
+    <div>
+      section 2
+    </div>
+    <div>
+      section 3
+    </div>
+  </footer>
+  <!-- FOOTER END -->
   <script>
     function myFunction(className) {
       var x = document.getElementById(className);
