@@ -37,23 +37,23 @@ body {
   flex-direction: row;
 }
 
-.main-image {
+.main-content {
   width: 100%;
   height: 100%;
   padding: 10px 5px;
-  background-color: beige;
 }
 
-.main-image > figure {
+.main-content>figure {
   width: 100%;
 }
 
 .resta-image {
   height: 500px;
   border-radius: 16px;
+  box-shadow: 0 0 50px #3F0C1F;
 }
 
-.image-section{
+.image-section {
   padding: 5px 10px;
   justify-content: space-between;
   align-items: center;
@@ -61,19 +61,26 @@ body {
 
 .sub-image {
   width: 30vw;
-  height:20vh;
+  height: 20vh;
   border-radius: 8px;
   box-shadow: 1px 2px 5px black;
 }
+
+.contact-mob {
+  display: none;
+}
+
+
 
 /* Extra small devices (phones, 767px and down) */
 @media screen and (max-width: 767px) {
   body {
     font-size: 1.33em;
   }
+
   .sub-image {
     width: 100px;
-    height:20vh;
+    height: 20vh;
     border-radius: 8px;
     box-shadow: 1px 2px 5px black;
   }

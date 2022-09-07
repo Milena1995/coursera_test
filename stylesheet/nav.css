@@ -7,7 +7,7 @@
 /* add image for container */
 .logo-nav {
     background-image: url("../assets/logo/Lais-Foody-logos_transparent.png");
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     height: 12vh;
@@ -79,7 +79,8 @@
 
     /* The Navigation Bar */
     .logo-nav {
-        height: 65px;
+        /* height: 65px; */
+        margin-right: 0;
     }
 
     #myBtn {
@@ -111,8 +112,16 @@
         display: none;
     }
 
+    .resta-name{
+        font-size: 1em;
+    }
     .resta-certif {
         margin-top: 1px;
+        font-size: 0.8em;
+    }
+
+    .resta{
+        padding-right: 3px;
     }
 
     /* The Modal (background) */
@@ -162,7 +171,7 @@
         width: 100%;
     }
 
-    .main-image {
+    .main-content {
         padding: 12px;
     }
 
@@ -206,4 +215,23 @@
         background-color: rgba(0, 0, 0, 0.4);
         box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
     }
+    
+    .contact-mob {
+        display: initial;
+        text-align: center;
+      }
+    
+      .contact-number {
+        padding: 10px;
+        box-shadow: 0 0 4px black;
+        border: 5px solid white;
+        background-color: #f6b319;
+        border-radius: 4px;
+      }
+    
+      .contact-delivery {
+        font-size: 0.8em;
+        color: white;
+        margin: 5px;
+      }
 }
