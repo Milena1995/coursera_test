@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove default underline */
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  font-size: 1em;
+  color: white;
+  background-color: #611221;
+  font-family: "Oxygen", sans-serif;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+/* using flex to align elements horizontally */
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-content {
+  text-align: center;
+  padding-top: 2em;
+}
+
+.menu-list {
+  height: 500px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(auto-fill, 1fr);
+  gap: 1em;
+  margin: 2em;
+}
+.menu-list a {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.menu-list a .image {
+  position: absolute;
+}
+
+.detail {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background-color: #222;
+  opacity: 0.8;
+  height: 2em;
+  padding: 5px;
+}
+
+.menu-item {
+  border: 1px solid gray;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 50px #3F0C1F;
+}
+
+.menu-item:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}/*# sourceMappingURL=menu.css.map */

@@ -43,37 +43,33 @@ body {
   padding: 10px 5px;
 }
 
-.resta-image {
+.main-figure {
   height: 500px;
   border-radius: 16px;
   box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid black;
+}
+.main-figure .main-image {
+  opacity: 0;
 }
 
 .image-section {
-  padding: 5px 10px;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
+  padding: 1.5em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
 }
 
-.figure-content {
+.figure {
   position: relative;
-  border-radius: 8px;
+  box-shadow: 0 0px 2px 0px black;
   overflow: hidden;
-  height: 20vh;
-  flex: 1;
+  border-radius: 8px;
 }
-.figure-content.figure {
+.figure.sub-image {
   position: absolute;
-  width: 100%;
 }
-.figure-content.figure-content:hover {
-  box-shadow: 0 1px 5px 1px #cccccc;
-}
-.figure-content.sub-image {
-  height: 20vh;
-}
-.figure-content figcaption {
+.figure figcaption {
   position: absolute;
   z-Index: 9999;
   bottom: 0;
@@ -81,8 +77,11 @@ body {
   opacity: 0.8;
   width: 100%;
   text-align: center;
-  border-radius: 0 0 8px 8px;
   padding: 8px;
+}
+
+.figure:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
 }
 
 .contact-mob {
@@ -94,15 +93,17 @@ body {
   body {
     font-size: 1.33em;
   }
-  .sub-image {
-    height: 20vh;
-  }
   figcaption {
     font-size: 0.8em;
     padding: 4px;
   }
   .main-content {
     padding: 12px;
+  }
+  .image-section {
+    padding: 1em;
+    grid-template-columns: repeat(auto-fill, 1fr);
+    gap: 0.5em;
   }
 }
 /* Small devices (portrait tablets and large phones, 768px and up) */
