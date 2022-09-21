@@ -1,37 +1,57 @@
-## Welcome to GitHub Pages
+Restaurant Website
 
-You can use the [editor on GitHub](https://github.com/Milena1995/coursera_test/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Simple overview of use/purpose.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Description
 
-### Markdown
+An in-depth paragraph about your project and overview of use.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Getting Started
 
-```markdown
-Syntax highlighted code block
+### Dependencies
 
-# Header 1
-## Header 2
-### Header 3
+* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
+* ex. Windows 10
 
-- Bulleted
-- List
+### Installing
 
-1. Numbered
-2. List
+* How/where to download your program
+* Any modifications needed to be made to files/folders
 
-**Bold** and _Italic_ and `Code` text
+### Executing program
 
-[Link](url) and ![Image](src)
+* How to run the program
+* Step-by-step bullets
+```
+code blocks for commands
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+## Help
 
-### Jekyll Themes
+Any advise for common problems or issues.
+```
+command to run if program contains helper info
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Milena1995/coursera_test/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Authors
 
-### Support or Contact
+Contributors names and contact info
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+ex. Dominique Pizzie  
+ex. [@DomPizzie](https://twitter.com/dompizzie)
+
+## Version History
+
+* 0.2
+    * Various bug fixes and optimizations
+    * See [commit change]() or See [release history]()
+* 0.1
+    * Initial Release
+
+## License
+
+This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+
+## Acknowledgments
+
+Inspiration, code snippets, etc.
